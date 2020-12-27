@@ -1,0 +1,15 @@
+[package]
+name = "sec_ticker_parser"
+version = "0.1.0"
+authors = ["treewolf"]
+edition = "2018"
+description = "Parser for the sec[dot]gov ticker text"
+license = "MIT"
+keywords = ["stocks", "api", "sec"]
+categories = ["api-bindings"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10.8", features = ["json", "blocking"] }
+# serde = { version = "1", features = ["derive"] }
