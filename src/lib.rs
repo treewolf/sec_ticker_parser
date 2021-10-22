@@ -77,7 +77,6 @@ mod tests {
     #[test]
     fn test_list() {
         let o = super::list().unwrap();
-        // println!("{:?}", o);
         assert!(!o.is_empty());
         assert_eq!(o.get("vz"), Some(&732712))
     }
