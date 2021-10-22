@@ -7,7 +7,7 @@ use std::collections::HashMap;
 ///
 /// Returns a hashmap where key=value maps to ticker=cik
 ///
-/// # Examples
+/// # Example
 /// ```
 /// let map = sec_ticker_parser::list().unwrap();
 /// assert_ne!(map.len(), 0)

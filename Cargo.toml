@@ -12,4 +12,4 @@ repository = "https://github.com/treewolf/sec_ticker_parser"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-reqwest = { version = "0.10.8", features = ["json", "blocking"] }
+reqwest = { version = "0.10.10", features = ["json", "blocking"] }
